@@ -1,0 +1,15 @@
+.Image_icon{
+    display: flex;
+    width: auto;
+    height: 140px;
+    margin: 10px;
+    /* border: 1px solid skyblue; */
+    color: white;
+}
+.image_icon{
+    display: flex;
+    margin: 18px;
+    gap: 71px;
+    cursor: pointer;
+    
+}

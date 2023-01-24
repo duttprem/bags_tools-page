@@ -1,0 +1,21 @@
+.head{
+    display: flex;
+    width: auto;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    /* border: 1px solid skyblue; */
+    color: white;
+}
+.head_a{
+    font-size: 18px;
+    text-align: right;
+}
+.head_b{
+    font-size: 18px;
+    padding-left: 950px;
+}
+.img_a{
+    padding-left: 10px;
+}

@@ -1,0 +1,74 @@
+.product_image{
+    display: flex;
+    width: auto;
+    height: 90vh;
+    /* border: 1px solid skyblue; */
+    padding: 10px;
+    margin: 10px;
+    
+    color: white;
+    cursor: pointer;
+    gap: 7px;
+}
+h2{
+    font-size: 22px;
+    padding-top: 5px;
+    text-align: center;
+}
+.p_image{
+    width: 300px;
+    height: 82vh;
+    padding: 10px;
+    border-radius: 12px;
+    /* border: 1px solid skyblue; */
+}
+.price{
+    padding-right: 9px;
+    font-size: 18px;
+}
+.rupee{
+    display: flex;
+    gap: 4px;
+}
+
+.off{
+    color: green;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.mark{
+    background: white;
+    width: 20px;
+    height: 10px;
+    position: relative;
+    top: -390px;
+    left: 242px;
+    color: white;
+}
+.bag_plus{
+     padding-left: 40px;
+    margin-left: 30px;
+}
+.offer{
+    margin-top: 5px;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+
+.add_a{
+    position: relative;
+    width: auto;
+    height: 20px;
+    top: 20px;
+    right: 12px;
+    border-radius: 50%;
+}
+.rupeea_sign{
+    width: auto;
+    height: 20px;
+}
+:where(h2, .p_image, .rupeea_sign,.add_a, .offer, .bag_plus,.off,.price,.rupee){
+    background-color: rgb(17, 18, 19);
+
+}
